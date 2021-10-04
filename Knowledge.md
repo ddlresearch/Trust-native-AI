@@ -5,7 +5,7 @@
       - [Pre-Processing](#Pre-Processing)
       - [In-Processing](#In-Processing)
       - [Post-Processing](#Post-Processing)
-    * [Metrics](#papers-that-employ-kgs-as-metric)
+    * [Metrics](#papers-that-employ-kgs-as-metrics)
 * [Domain Specialized Knowledge (DSK)](#domain-specialized-knowledge-dsk)
     * [Constraints](#dsk-as-constraints)
 * Pending List
@@ -20,13 +20,13 @@
 2. Knowledge graph semantic enhancement of input data for improving AI (IEEE Internet Computing 2020)
 3. Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives (Computers in Industry 2021)
 
-### Papers that Employs KGs as Constraints
+### Papers that Employ KGs as Constraints
 
 #### Pre-Processing
 #### IN-Processing
 #### Post-Processing
 
-### Papers that employ KGs as Metrics
+### Papers that Employ KGs as Metrics
 
 ----------------------
 ## Domain Specialized Knowledge (DSK)
