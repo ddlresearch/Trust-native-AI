@@ -99,12 +99,11 @@ These works use the knowledge graphs in final hypothesis, which indicates whethe
 
 -----------------------
 ## Supplementary
-## Knowledge-aware methods in XAI
-### Surveys and Tutorials
+### Knowledge-aware methods in XAI
+#### Surveys and Tutorials
 1. A Survey of Data-driven and Knowledge-aware eXplainable AI (TKDE 2021)
 > * The second part of this survey discusses the KG based methods
 
-### General Papers
 #### Internal rules: consider KG when designing the models (nowadays mainly used in recommendation systems)
 1. Entity Suggestion with Conceptual Explanation (IJCAI 2017)
 
@@ -114,7 +113,7 @@ These works use the knowledge graphs in final hypothesis, which indicates whethe
 
 
 
-## Related Reading
+### Related Reading
 1. TensorFlow: Neural Structured Learning [[TF](https://www.tensorflow.org/neural_structured_learning)] [[GitHub](https://github.com/tensorflow/neural-structured-learning)]
 * Train neural networks by leveraging structured signals in addition to feature inputs. Structure can be explicit as represented by a graph, or implicit as induced by adversarial perturbation.
 2. Yoshua Bengio: From System 1 Deep Learning to System 2 Deep Learning (NeurIPS 2019) [[Video](https://www.youtube.com/watch?v=T3sxeTgT4qc)]
