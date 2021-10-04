@@ -27,7 +27,7 @@ Trust-native AI focus on incorporating structural information into deep learning
 
 * Causality [Details](Causality.md "As one of the base solutions for the trust-Native-AI framework, providing solutions for introducing causal inference methods and structural causation into the deep learning process")
   * SCM
-    * Constrain
+    * Constraints
       * <details><summary>Intervention</summary>
          - Deconfounder<br>
          - Track prediction & Reasoning
