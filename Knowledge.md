@@ -1,31 +1,31 @@
 # Knowledge
 ## Contents
 * [Knowledge Graph (KG)](#knowledge-graph-kg)
-    * [Constrain](#kg-as-constrain)
+    * [Constraints](#kg-as-constraints)
       - [Pre-Processing](#Pre-Processing)
       - [In-Processing](#In-Processing)
       - [Post-Processing](#Post-Processing)
-    * [Metric](#kg-as-metric)
+    * [Metrics](#kg-as-metric)
 * [Domain Specialized Knowledge (DSK)](#domain-specialized-knowledge-dsk)
-    * [Constrain](#dsk-as-constrain)
+    * [Constraints](#dsk-as-constraints)
 * Pending List
 
 
 -------------------------------
 
-### Knowledge Graph (KG)
+## Knowledge Graph (KG)
 
-#### KG as Constrain
+### KG as Constraints
 
-##### Pre-Processing
-##### IN-Processing
-##### Post-Processing
+#### Pre-Processing
+#### IN-Processing
+#### Post-Processing
 
-#### KG as Metric
+### KG as Metrics
 
 ----------------------
-### Domain Specialized Knowledge (DSK)
-#### DSK as Constrain
+## Domain Specialized Knowledge (DSK)
+### DSK as Constraints
 
 -----------------------
-### Supplementary
+## Supplementary
