@@ -1,4 +1,4 @@
-# Trust-native-AI
+# Trust-native AI (Tutorals, Surveys and Papers)
 Trust-native AI focus on incorporating structural information into deep learning paradigm to enable native trustworthy nature of AI system
 
 * Constraint Interface [Details](ConstraintInterface.md "The interface for trust-Native-AI framework to obtain domain-specific or universal trustworthy constraints, providing consistency representation, constraint resolution and other functions")
