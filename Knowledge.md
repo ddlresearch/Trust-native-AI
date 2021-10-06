@@ -13,12 +13,15 @@
 
 -------------------------------
 
-## Knowledge Graph (KG)
-
-### Surveys and Tutorials
+## Major Materials
+### Principles, Surveys and Tutorials
 1. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021) [[Paper](https://arxiv.org/pdf/1903.12394.pdf)] 🌟
 2. Knowledge graph semantic enhancement of input data for improving AI (IEEE Internet Computing 2020)
 3. Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives (Computers in Industry 2021)
+4. Cognitive Graph for Multi-Hop Reading Comprehension at Scale (ACL 2019) [[GitHub](https://github.com/THUDM/CogQA)] [[Notes](https://zhuanlan.zhihu.com/p/72981392)]
+> * Major contribution：System 1 (from training data) + System 2 (from existing knowledge or rules) to enhance the performance of the downstream tasks. This guides the direction of Trustworthy AI.
+> * Note: Cognitive Graph is not directly equal to Knowledge Graph. You can view CG as a (dynamic, partial, local) KG generated instantly from the query.
+
 
 ### Papers that Employ KGs as Constraints
 
