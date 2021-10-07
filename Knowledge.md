@@ -100,6 +100,7 @@ These works use the knowledge graphs in final hypothesis, which indicates whethe
 
 ----------------------
 ## Domain Specialized Knowledge (DSK)
+Note: You may refer to [[Doimain-Specific KG section](https://github.com/heathersherry/Knowledge-Graph-Tutorials-and-Papers/blob/master/topics/About%20Domain-Specific%20Knowledge%20Bases.md#kbs-in-specific-domains)] for more details.
 ### DSK as Constraints
 
 -----------------------
