@@ -1,6 +1,7 @@
 # Knowledge-aware Trust-native AI
 ## Contents
-* [Knowledge Graph (KG)](#knowledge-graph-kg)
+* [Principles, Surveys and Tutorials)](#principles,-surveys-and-tutorials)
+* [Knowledge Graph (KG)](#papers-that-employ-kgs-as-constraints)
     * [Constraints](#papers-that-employ-kgs-as-constraints)
       - [Pre-Processing](#Pre-Processing)
       - [In-Processing](#In-Processing)
@@ -13,7 +14,6 @@
 
 -------------------------------
 
-## Major Materials
 ### Principles, Surveys and Tutorials
 1. Trustworthy AI: From Principles to Practices [[Paper](https://arxiv.org/pdf/2110.01167.pdf)]
 > * This survey provides a good roadmap for the important aspects of AI trustworthiness.
