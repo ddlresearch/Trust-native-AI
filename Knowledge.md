@@ -1,6 +1,6 @@
 # Knowledge-aware Trust-native AI
 ## Contents
-* [Principles, Surveys and Tutorials)](#principles,-surveys-and-tutorials)
+* [Principles, Surveys and Tutorials](#principles-surveys-and-tutorials)
 * [Knowledge Graph (KG)](#papers-that-employ-kgs-as-constraints)
     * [Constraints](#papers-that-employ-kgs-as-constraints)
       - [Pre-Processing](#Pre-Processing)
