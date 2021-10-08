@@ -101,6 +101,13 @@ These works use the knowledge graphs in final hypothesis, which indicates whethe
 ----------------------
 ## Domain Specialized Knowledge (DSK)
 Note: You may refer to [[Doimain-Specific KG section](https://github.com/heathersherry/Knowledge-Graph-Tutorials-and-Papers/blob/master/topics/About%20Domain-Specific%20Knowledge%20Bases.md#kbs-in-specific-domains)] for more details.
+
+### Medical Domain
+#### Tutorials, Surveys and Workshop
+1. Software as a Medical Device: Regulating AI in Healthcare via Responsible AI (KDD 2021 Tutorial) [[Paper](https://dl.acm.org/doi/pdf/10.1145/3447548.3470823)] [[Website](https://responsibleml.github.io/)] [[Video](https://www.youtube.com/watch?v=p-Kg27--MII)]
+2. 
+3. 
+
 ### DSK as Constraints
 
 -----------------------
@@ -123,3 +130,4 @@ Note: You may refer to [[Doimain-Specific KG section](https://github.com/heather
 1. TensorFlow: Neural Structured Learning [[TF](https://www.tensorflow.org/neural_structured_learning)] [[GitHub](https://github.com/tensorflow/neural-structured-learning)]
 * Train neural networks by leveraging structured signals in addition to feature inputs. Structure can be explicit as represented by a graph, or implicit as induced by adversarial perturbation.
 2. Yoshua Bengio: From System 1 Deep Learning to System 2 Deep Learning (NeurIPS 2019) [[Video](https://www.youtube.com/watch?v=T3sxeTgT4qc)]
+3. Explainable NLP [[Website](https://xainlp.github.io/kddtutorial/)]
