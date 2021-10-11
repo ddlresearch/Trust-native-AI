@@ -4,10 +4,12 @@
 Note: The major concerns in Trustworthy AI include (but not limited to) Explanability, Robustness, Privacy and Security, Fairness.
 1. Trustworthy AI: From Principles to Practices [[Paper](https://arxiv.org/pdf/2110.01167.pdf)]
 > * This survey provides a good roadmap for the important aspects of AI trustworthiness.
-3. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021) [[Paper](https://arxiv.org/pdf/1903.12394.pdf)] 🌟
-4. Knowledge graph semantic enhancement of input data for improving AI (IEEE Internet Computing 2020)
-5. Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives (Computers in Industry 2021)
-6. Cognitive Graph for Multi-Hop Reading Comprehension at Scale (ACL 2019) [[GitHub](https://github.com/THUDM/CogQA)] [[Notes 1 (by author in Chinese)](https://zhuanlan.zhihu.com/p/72981392)] [[Notes 2 by a reader in Chinese](https://blog.csdn.net/XiangJiaoJun_/article/details/105879690)]
+2. KDD2021 Tutorial: Machine Learning Robustness, Fairness, and their Convergence [[Website (with slides)](https://kdd21tutorial-robust-fair-learning.github.io/)]
+3. KDD 2021 Tutorial: Machine Learning Explainability and Robustness: Connected at the Hip [[Website (with slides)](https://sites.google.com/andrew.cmu.edu/kdd-2021-tutorial-expl-robust/home)]
+4. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021) [[Paper](https://arxiv.org/pdf/1903.12394.pdf)] 🌟
+5. Knowledge graph semantic enhancement of input data for improving AI (IEEE Internet Computing 2020)
+6. Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives (Computers in Industry 2021)
+7. Cognitive Graph for Multi-Hop Reading Comprehension at Scale (ACL 2019) [[GitHub](https://github.com/THUDM/CogQA)] [[Notes 1 (by author in Chinese)](https://zhuanlan.zhihu.com/p/72981392)] [[Notes 2 by a reader in Chinese](https://blog.csdn.net/XiangJiaoJun_/article/details/105879690)]
 > * Major contribution：System 1 (from training data) + System 2 (from existing knowledge or rules) to enhance the performance of the downstream tasks. This guides the direction of Trustworthy AI.
 > * Note: Cognitive Graph is not directly equal to Knowledge Graph. You can view CG as a (dynamic, partial, local) KG generated instantly from the query.
 -------------------------------
@@ -20,6 +22,18 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 3. 2020 KDD Workshop on Applied Data Science for Healthcare: Trustable and Actionable AI for Healthcare [[Website](https://dshealthkdd.github.io/dshealth-2020/)]
 > * Most of the papers mainly focus on effectineness of the downstream tasks.
 
+#### Explainability
+1. A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI (IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS 2020) [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366)]
+2. 
+#### Fairness and Ethics
+
+#### Truth Discovery and Knowledge Verification (more close to downstream applications)
+1. When Truth Discovery Meets Medical Knowledge Graph: Estimating Trustworthiness Degree for Medical Knowledge Condition (CoRR 2018)
+> * Supplement medical knowledge graph with knowledge condition information.
+> * The knowledge triples and conditions serve as objects and claims, and each doctor or a user provides answers on QA website is a source. The proposed method has two novel
+properties: 1) Combining prior source quality information and automatic source reliability estimation; 2) Encoding the object (knowledge triple) information into the proposed method.
+2. 
+
 #### Related readings on Knowledge-aware Healthcare
 1. Advances in Mining Heterogenous Healthcare Data [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
 
@@ -27,7 +41,12 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 
 
 ## 3. Trustworthy AI with General Knowledge
-### Papers that Employ KGs as Constraints
+### 3.1 Trustworthy KG Construction or Refinement
+#### Truth Discovery and Knowledge Verification (more close to downstream applications)
+1. Adaptive knowledge subgraph ensemble for robust and trustworthy knowledge graph completion (WWW jornal 2020)
+> * An ensemble framework, Adaptive Knowledge Subgraph Ensemble (AKSE), to enhance the robustness and trust of knowledge graph completion.
+
+### 3.2 Papers that Employ KGs as Constraints
 
 #### Task 1: Pre-Processing
 In these works, KGs are utilized to enhance the training data. One popular direction is distant-supervision based training data augmentation for named entity recognition (NER) and relation extraction (You may refer to [[the NER and Entity Typing section](https://github.com/heathersherry/Knowledge-Graph-Tutorials-and-Papers/blob/master/topics/Named%20Entity%20Recoginition%2C%20Entity%20Extraction%20and%20Entity%20Typing.md)] for more details).
