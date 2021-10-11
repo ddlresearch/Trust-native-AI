@@ -17,9 +17,11 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 #### Tutorials, Surveys and Workshop
 1. KDD 2021 Tutorial: Software as a Medical Device: Regulating AI in Healthcare via Responsible AI [[Paper](https://dl.acm.org/doi/pdf/10.1145/3447548.3470823)] [[Website](https://responsibleml.github.io/)] [[Video](https://www.youtube.com/watch?v=p-Kg27--MII)]
 2. AAAI 2021 Workshop: Trustworthy AI for Healthcare [[Website](https://taih20.github.io)]
+3. 2020 KDD Workshop on Applied Data Science for Healthcare: Trustable and Actionable AI for Healthcare [[Website](https://dshealthkdd.github.io/dshealth-2020/)]
+> * Most of the papers mainly focus on effectineness of the downstream tasks.
 
 #### Related readings on Knowledge-aware Healthcare
-1. Advances in Mining Heterogenous Healthcare Data
+1. Advances in Mining Heterogenous Healthcare Data [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
 
 #####
 
