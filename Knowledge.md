@@ -23,11 +23,11 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 2. AAAI 2021 Workshop: Trustworthy AI for Healthcare [[Website](https://taih20.github.io)]
 3. 2020 KDD Workshop on Applied Data Science for Healthcare: Trustable and Actionable AI for Healthcare [[Website](https://dshealthkdd.github.io/dshealth-2020/)]
 > * Most of the papers mainly focus on effectineness of the downstream tasks.
-4. On Assessing Trustworthy AI in Healthcare. Machine Learning as a Supportive Tool to Recognize Cardiac Arrest in Emergency Calls [[Paper](https://www.frontiersin.org/articles/10.3389/fhumd.2021.673104/full)]
+4. On Assessing Trustworthy AI in Healthcare. Machine Learning as a Supportive Tool to Recognize Cardiac Arrest in Emergency Calls [[Paper](https://www.frontiersin.org/articles/10.3389/fhumd.2021.673104/full)] 
 
 #### Explainability
 1. A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI (IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS 2020) [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366)]
-2. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403092)] [[GitHub](https://github.com/cuilimeng/DETERRENT)]
+2. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](http://pike.psu.edu/publications/kdd20-deterrent.pdf)] [[GitHub](https://github.com/cuilimeng/DETERRENT)]
 > * A novel problem of explainable healthcare misinformation detection (from the web) by leveraging medical knowledge graph to better capture the high-order relations between entities.
 
 #### Fairness and Ethics
