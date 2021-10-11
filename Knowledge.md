@@ -1,20 +1,7 @@
 # Knowledge-aware Trust-native AI
-## Contents
-* [Principles, Surveys and Tutorials](#principles-surveys-and-tutorials)
-* [Knowledge Graph (KG)](#papers-that-employ-kgs-as-constraints)
-    * [Constraints](#papers-that-employ-kgs-as-constraints)
-      - [Pre-Processing](#Pre-Processing)
-      - [In-Processing](#In-Processing)
-      - [Post-Processing](#Post-Processing)
-    * [Metrics](#papers-that-employ-kgs-as-metrics)
-* [Domain Specialized Knowledge (DSK)](#domain-specialized-knowledge-dsk)
-    * [Constraints](#dsk-as-constraints)
-* Pending List
 
-
--------------------------------
-
-### Principles, Surveys and Tutorials
+## 1. Principles, Surveys and Tutorials 
+Note: The major concerns in Trustworthy AI include (but not limited to) Explanability, Robustness, Privacy and Security, Fairness.
 1. Trustworthy AI: From Principles to Practices [[Paper](https://arxiv.org/pdf/2110.01167.pdf)]
 > * This survey provides a good roadmap for the important aspects of AI trustworthiness.
 3. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021) [[Paper](https://arxiv.org/pdf/1903.12394.pdf)] 🌟
@@ -23,8 +10,21 @@
 6. Cognitive Graph for Multi-Hop Reading Comprehension at Scale (ACL 2019) [[GitHub](https://github.com/THUDM/CogQA)] [[Notes 1 (by author in Chinese)](https://zhuanlan.zhihu.com/p/72981392)] [[Notes 2 by a reader in Chinese](https://blog.csdn.net/XiangJiaoJun_/article/details/105879690)]
 > * Major contribution：System 1 (from training data) + System 2 (from existing knowledge or rules) to enhance the performance of the downstream tasks. This guides the direction of Trustworthy AI.
 > * Note: Cognitive Graph is not directly equal to Knowledge Graph. You can view CG as a (dynamic, partial, local) KG generated instantly from the query.
+-------------------------------
+
+## 2. Trustworthy AI with Specific Domain Knowledge
+### 2.1. Healthcare and Medical Domain
+#### Tutorials, Surveys and Workshop
+1. KDD 2021 Tutorial: Software as a Medical Device: Regulating AI in Healthcare via Responsible AI [[Paper](https://dl.acm.org/doi/pdf/10.1145/3447548.3470823)] [[Website](https://responsibleml.github.io/)] [[Video](https://www.youtube.com/watch?v=p-Kg27--MII)]
+2. AAAI 2021 Workshop: Trustworthy AI for Healthcare [[Website](https://taih20.github.io)]
+
+#### Related readings on Knowledge-aware Healthcare
+1. Advances in Mining Heterogenous Healthcare Data
+
+#####
 
 
+## 3. Trustworthy AI with General Knowledge
 ### Papers that Employ KGs as Constraints
 
 #### Task 1: Pre-Processing
@@ -82,7 +82,7 @@ These works integrate graph knowledge into learning. Specifically, numerous NLP 
 2. Rule-enhanced iterative complementation for knowledge graph reasoning (Information Science 2021)
 > * A multi-relational GCN with attentive message passing is introduced as the triple discriminator. It acquires the structural information of KGs by aggregating neighbour relations and entities. 
 
-#### Task 3: Post-Processing
+#### Task 3: Post-Processing (as Metrics)
 These works use the knowledge graphs in final hypothesis, which indicates whether the prediction is consistent with available knowledge.
 
 1. Explicit retrofitting of distributional word vectors (ACL 2018)
@@ -96,19 +96,6 @@ These works use the knowledge graphs in final hypothesis, which indicates whethe
 3. GRADE: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems (EMNLP 2020) [[Paper](https://arxiv.org/pdf/2010.03994.pdf)] [[GitHub](https://github.com/li3cmz/GRADE)]
 > * This work is for automatic evaluation for open-domain dialogue systems. It uses graph knowledge to evaluate the dialogue coherence as the result produced by the system. (not directly related to KGs as metrics, but may give some hints)
 
-### Papers that Employ KGs as Metrics
-
-----------------------
-## Domain Specialized Knowledge (DSK)
-Note: You may refer to [[Doimain-Specific KG section](https://github.com/heathersherry/Knowledge-Graph-Tutorials-and-Papers/blob/master/topics/About%20Domain-Specific%20Knowledge%20Bases.md#kbs-in-specific-domains)] for more details.
-
-### Medical Domain
-#### Tutorials, Surveys and Workshop
-1. Software as a Medical Device: Regulating AI in Healthcare via Responsible AI (KDD 2021 Tutorial) [[Paper](https://dl.acm.org/doi/pdf/10.1145/3447548.3470823)] [[Website](https://responsibleml.github.io/)] [[Video](https://www.youtube.com/watch?v=p-Kg27--MII)]
-2. 
-3. 
-
-### DSK as Constraints
 
 -----------------------
 ## Supplementary
