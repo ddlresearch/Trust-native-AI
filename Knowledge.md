@@ -24,7 +24,8 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 
 #### Explainability
 1. A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI (IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS 2020) [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366)]
-
+2. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403092)] [[GitHub](https://github.com/cuilimeng/DETERRENT)]
+> * A novel problem of explainable healthcare misinformation detection (from the web) by leveraging medical knowledge graph to better capture the high-order relations between entities.
 
 #### Fairness and Ethics
 
@@ -33,19 +34,21 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 > * Supplement medical knowledge graph with knowledge condition information.
 > * The knowledge triples and conditions serve as objects and claims, and each doctor or a user provides answers on QA website is a source. The proposed method has two novel
 properties: 1) Combining prior source quality information and automatic source reliability estimation; 2) Encoding the object (knowledge triple) information into the proposed method.
-2. 
+2. SMR: Medical Knowledge Graph Embedding for Safe Medicine Recommendation (Big Data Research 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S2214579620300423?casa_token=tVr0i-xSshMAAAAA:TwCct8Fk4IWKv5P3O0pS1rAfmZWTuZDAkbw1a44QUjYsYufxQ7u8wosPbzyULxVJ5nJcNF62Pxo)]
 
 #### Related readings on Knowledge-aware Healthcare
 1. Advances in Mining Heterogenous Healthcare Data [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
 
-#####
 
 
 ## 3. Trustworthy AI with General Knowledge
 ### 3.1 Trustworthy KG Related Tasks
+#### Tutorials, Surveys and Workshop
+1. Semantics of the Black-Box: Can Knowledge Graphs Help Make Deep Learning Systems More Interpretable and Explainable? 
+
 #### Explainability
-1. Incorporating Relational Knowledge in Explainable Fake News Detection (PAKDD 2021) [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32)]
-2. 
+2. Incorporating Relational Knowledge in Explainable Fake News Detection (PAKDD 2021) [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32)]
+3. 
 #### Truth Discovery and Knowledge Verification (more close to downstream applications)
 1. Knowledge graph quality control: A survey (Fundamental Research 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S2667325821001655)] 
 > * Include the discussion of textual trsuworthness and interoperability of representations.
