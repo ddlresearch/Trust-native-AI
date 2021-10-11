@@ -37,18 +37,30 @@ properties: 1) Combining prior source quality information and automatic source r
 2. SMR: Medical Knowledge Graph Embedding for Safe Medicine Recommendation (Big Data Research 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S2214579620300423?casa_token=tVr0i-xSshMAAAAA:TwCct8Fk4IWKv5P3O0pS1rAfmZWTuZDAkbw1a44QUjYsYufxQ7u8wosPbzyULxVJ5nJcNF62Pxo)]
 
 #### Related readings on Knowledge-aware Healthcare
-1. Advances in Mining Heterogenous Healthcare Data [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
+1. Advances in Mining Heterogenous Healthcare Data (KDD 2020 Tutotial) [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
+2. Clinical Trial Parser by Facebook Research [[GitHub](https://github.com/facebookresearch/Clinical-Trial-Parser)]
+> * A downstream task: medical NER
 
 
-
-## 3. Trustworthy AI with General Knowledge
+## 3. Trustworthy AI with General Knowledge or Knowledge Graphs
 ### 3.1 Trustworthy KG Related Tasks
 #### Tutorials, Surveys and Workshop
 1. Semantics of the Black-Box: Can Knowledge Graphs Help Make Deep Learning Systems More Interpretable and Explainable? 
+2. Explainable AI Using Knowledge Graphs (tutorial 2020) [[Video](https://www.youtube.com/watch?v=MOfTXxgO78A)]
+3. On the Role of Knowledge Graph in Explainable AI (under open review at the Semantic Web Journal, 2021) [[Full Slides](http://www-sop.inria.fr/members/Freddy.Lecue/presentation/ISWC2019-FreddyLecue-Thales-OnTheRoleOfKnowledgeGraphsInExplainableAI.pdf)]
+4. 
 
 #### Explainability
+1.
 2. Incorporating Relational Knowledge in Explainable Fake News Detection (PAKDD 2021) [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32)]
-3. 
+3.
+
+#### Fairness
+1. Explaining Algorithmic Fairness Through Fairness-Aware Causal Path Decomposition (KDD 2021) [[Paper](https://arxiv.org/pdf/2108.05335.pdf)]
+> * Study the problem of identification of the source of model disparities.
+> * Consider the causal relationships among feature variables, and propose a novel framework to decompose the disparity into the sum of contributions from fairness-aware causal
+paths, which are paths linking the sensitive attribute and the final predictions, on the graph.
+
 #### Truth Discovery and Knowledge Verification (more close to downstream applications)
 1. Knowledge graph quality control: A survey (Fundamental Research 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S2667325821001655)] 
 > * Include the discussion of textual trsuworthness and interoperability of representations.
