@@ -4,7 +4,7 @@
 Note: The major concerns in Trustworthy AI include (but not limited to) Explanability, Robustness, Privacy and Security, Fairness.
 1. Trustworthy AI: From Principles to Practices [[Paper](https://arxiv.org/pdf/2110.01167.pdf)]
 > * This survey provides a good roadmap for the important aspects of AI trustworthiness.
-2. KDD2021 Tutorial: Machine Learning Robustness, Fairness, and their Convergence [[Website (with slides)](https://kdd21tutorial-robust-fair-learning.github.io/)]
+2. KDD 2021 Tutorial: Machine Learning Robustness, Fairness, and their Convergence [[Website (with slides)](https://kdd21tutorial-robust-fair-learning.github.io/)]
 3. KDD 2021 Tutorial: Machine Learning Explainability and Robustness: Connected at the Hip [[Website (with slides)](https://sites.google.com/andrew.cmu.edu/kdd-2021-tutorial-expl-robust/home)]
 4. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021) [[Paper](https://arxiv.org/pdf/1903.12394.pdf)] 🌟
 5. Knowledge graph semantic enhancement of input data for improving AI (IEEE Internet Computing 2020)
@@ -24,7 +24,8 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 
 #### Explainability
 1. A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI (IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS 2020) [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366)]
-2. 
+
+
 #### Fairness and Ethics
 
 #### Truth Discovery and Knowledge Verification (more close to downstream applications)
@@ -41,10 +42,20 @@ properties: 1) Combining prior source quality information and automatic source r
 
 
 ## 3. Trustworthy AI with General Knowledge
-### 3.1 Trustworthy KG Construction or Refinement
+### 3.1 Trustworthy KG Related Tasks
+#### Explainability
+1. Incorporating Relational Knowledge in Explainable Fake News Detection (PAKDD 2021) [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32)]
+2. 
 #### Truth Discovery and Knowledge Verification (more close to downstream applications)
-1. Adaptive knowledge subgraph ensemble for robust and trustworthy knowledge graph completion (WWW jornal 2020)
+1. Knowledge graph quality control: A survey (Fundamental Research 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S2667325821001655)] 
+> * Include the discussion of textual trsuworthness and interoperability of representations.
+3. Adaptive knowledge subgraph ensemble for robust and trustworthy knowledge graph completion (WWW jornal 2020) [[Paper](https://shiruipan.github.io/publication/wwwj-2019-wan/wwwj-2019-wan.pdf)]
 > * An ensemble framework, Adaptive Knowledge Subgraph Ensemble (AKSE), to enhance the robustness and trust of knowledge graph completion.
+4. Learning entity type structured embeddings with trustworthiness on noisy knowledge graphs (Knowledge-based System 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S0950705120307590?casa_token=9b_buV6VccYAAAAA:KmMoDbUmdVlHOkUf-qV02jbX1edu4TikRQKiVRbxMTY3jWBwCYn8vVQkWyS-1Vzxod-gORjk2tQ)] [[GitHub](https://github.com/lzqhub/TrustE)]
+> * Most conventional entity type embedding models unreasonably assume that all entity type instances in existing KGs are completely correct, which ignore noises and could lead to potential errors for down-stream tasks. To address this issue, this paper proposes TrustE to build trustworthiness-aware entity type structured embeddings, which takes possible entity type noises into consideration for learning better representations.
+5. Beyond Relevance: Trustworthy Answer Selection via Consensus Verification (WSDM 2021)
+> * A novel matching-verification framework for automatic answer selection. 
+> * They decompose the trustworthiness measurement into two parts, i.e., a verification score which measures the consistency between a candidate answer and the consensus representation, and a confidence score which measures the reliability of the consensus itself.
 
 ### 3.2 Papers that Employ KGs as Constraints
 
