@@ -4,12 +4,14 @@
 Note: The major concerns in Trustworthy AI include (but not limited to) Explanability, Robustness, Privacy and Security, Fairness.
 1. Trustworthy AI: From Principles to Practices [[Paper](https://arxiv.org/pdf/2110.01167.pdf)]
 > * This survey provides a good roadmap for the important aspects of AI trustworthiness.
-2. KDD 2021 Tutorial: Machine Learning Robustness, Fairness, and their Convergence [[Website (with slides)](https://kdd21tutorial-robust-fair-learning.github.io/)]
-3. KDD 2021 Tutorial: Machine Learning Explainability and Robustness: Connected at the Hip [[Website (with slides)](https://sites.google.com/andrew.cmu.edu/kdd-2021-tutorial-expl-robust/home)]
-4. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021) [[Paper](https://arxiv.org/pdf/1903.12394.pdf)] 🌟
-5. Knowledge graph semantic enhancement of input data for improving AI (IEEE Internet Computing 2020)
-6. Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives (Computers in Industry 2021)
-7. Cognitive Graph for Multi-Hop Reading Comprehension at Scale (ACL 2019) [[GitHub](https://github.com/THUDM/CogQA)] [[Notes 1 (by author in Chinese)](https://zhuanlan.zhihu.com/p/72981392)] [[Notes 2 by a reader in Chinese](https://blog.csdn.net/XiangJiaoJun_/article/details/105879690)]
+2. Trusted AI 101: A Guide to Building Trustworthy and Ethical AI Systems [[Website](https://www.datarobot.com/trusted-ai-101/)]
+3. IJCAI 2020 Tutorial: Trusting AI by Testing and Rating Third Party Offerings [[Website](https://sites.google.com/view/ijcai2020tut-aitrust/home)]
+4. KDD 2021 Tutorial: Machine Learning Robustness, Fairness, and their Convergence [[Website (with slides)](https://kdd21tutorial-robust-fair-learning.github.io/)]
+5. KDD 2021 Tutorial: Machine Learning Explainability and Robustness: Connected at the Hip [[Website (with slides)](https://sites.google.com/andrew.cmu.edu/kdd-2021-tutorial-expl-robust/home)]
+6. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021) [[Paper](https://arxiv.org/pdf/1903.12394.pdf)] 🌟
+7. Knowledge graph semantic enhancement of input data for improving AI (IEEE Internet Computing 2020)
+8. Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives (Computers in Industry 2021)
+9. Cognitive Graph for Multi-Hop Reading Comprehension at Scale (ACL 2019) [[GitHub](https://github.com/THUDM/CogQA)] [[Notes 1 (by author in Chinese)](https://zhuanlan.zhihu.com/p/72981392)] [[Notes 2 by a reader in Chinese](https://blog.csdn.net/XiangJiaoJun_/article/details/105879690)]
 > * Major contribution：System 1 (from training data) + System 2 (from existing knowledge or rules) to enhance the performance of the downstream tasks. This guides the direction of Trustworthy AI.
 > * Note: Cognitive Graph is not directly equal to Knowledge Graph. You can view CG as a (dynamic, partial, local) KG generated instantly from the query.
 -------------------------------
