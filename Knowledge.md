@@ -78,7 +78,7 @@ properties: 1) Combining prior source quality information and automatic source r
 > * Path is the explanation for the recommendation (Fig 1)
 > * Explainability analysis: case study in Fig 7 (explainable path)
 5. Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation (Algorithms 2018)
-6. KGAT: Knowledge Graph Attention Network for Recommendation (KDD 2019)
+6. KGAT: Knowledge Graph Attention Network for Recommendation (KDD 2019) [[Paper](https://arxiv.org/pdf/1905.07854.pdf)]
 7. Reinforcement knowledge graph reasoning for explainable recommendation (SIGIR 2019)
 8. Explainable Recommendation via Interpretable Feature Mapping and Evaluation of Explainability (IJCAI 2020) [[Paper](https://www.ijcai.org/proceedings/2020/0373.pdf)]
 
