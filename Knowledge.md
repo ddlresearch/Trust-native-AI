@@ -1,6 +1,6 @@
 # Knowledge-aware Trust-native AI
 
-## 1. Principles, Surveys and Tutorials 
+## 1. Principles, Surveys, and Tutorials 
 Note: The major concerns in Trustworthy AI include (but not limited to) Explanability, Robustness, Privacy and Security, Fairness.
 1. Trustworthy AI: From Principles to Practices [[Paper](https://arxiv.org/pdf/2110.01167.pdf)]
 > * This survey provides a good roadmap for the important aspects of AI trustworthiness.
@@ -8,12 +8,17 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 3. IJCAI 2020 Tutorial: Trusting AI by Testing and Rating Third Party Offerings [[Website](https://sites.google.com/view/ijcai2020tut-aitrust/home)]
 4. KDD 2021 Tutorial: Machine Learning Robustness, Fairness, and their Convergence [[Website (with slides)](https://kdd21tutorial-robust-fair-learning.github.io/)]
 5. KDD 2021 Tutorial: Machine Learning Explainability and Robustness: Connected at the Hip [[Website (with slides)](https://sites.google.com/andrew.cmu.edu/kdd-2021-tutorial-expl-robust/home)]
-6. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021) [[Paper](https://arxiv.org/pdf/1903.12394.pdf)] 🌟
-7. Knowledge graph semantic enhancement of input data for improving AI (IEEE Internet Computing 2020)
-8. Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives (Computers in Industry 2021)
-9. Cognitive Graph for Multi-Hop Reading Comprehension at Scale (ACL 2019) [[GitHub](https://github.com/THUDM/CogQA)] [[Notes 1 (by author in Chinese)](https://zhuanlan.zhihu.com/p/72981392)] [[Notes 2 by a reader in Chinese](https://blog.csdn.net/XiangJiaoJun_/article/details/105879690)]
+6. KDD 2020 Tutorial: Intelligible and Explainable Machine Learning: Best Practices and Practical Challenges [[Video](https://www.youtube.com/watch?v=gjJIHIIbbok)]
+7. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021) [[Paper](https://arxiv.org/pdf/1903.12394.pdf)] 🌟
+8. Knowledge graph semantic enhancement of input data for improving AI (IEEE Internet Computing 2020)
+9. Exploiting knowledge graphs in industrial products and services: A survey of key aspects, challenges, and future perspectives (Computers in Industry 2021)
+10. Cognitive Graph for Multi-Hop Reading Comprehension at Scale (ACL 2019) [[GitHub](https://github.com/THUDM/CogQA)] [[Notes 1 (by author in Chinese)](https://zhuanlan.zhihu.com/p/72981392)] [[Notes 2 by a reader in Chinese](https://blog.csdn.net/XiangJiaoJun_/article/details/105879690)]
 > * Major contribution：System 1 (from training data) + System 2 (from existing knowledge or rules) to enhance the performance of the downstream tasks. This guides the direction of Trustworthy AI.
 > * Note: Cognitive Graph is not directly equal to Knowledge Graph. You can view CG as a (dynamic, partial, local) KG generated instantly from the query.
+11. Awesome Explainable AI [[GitHub](https://github.com/wangyongjie-ntu/Awesome-explainable-AI)]
+12. Awesome_deep_learning_interpretability [[GitHub](https://github.com/oneTaken/awesome_deep_learning_interpretability)]
+13. Aawesome-machine-learning-interpretability [[GitHub](https://github.com/jphall663/awesome-machine-learning-interpretability)]
+14. Awesome-explainable-interpretable-ai [[Website](https://myrelated.work/t/awesome-explainable-interpretable-ai/40)]
 -------------------------------
 
 ## 2. Trustworthy AI with Specific Domain Knowledge
@@ -21,14 +26,21 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 #### Tutorials, Surveys and Workshop
 1. KDD 2021 Tutorial: Software as a Medical Device: Regulating AI in Healthcare via Responsible AI [[Paper](https://dl.acm.org/doi/pdf/10.1145/3447548.3470823)] [[Website](https://responsibleml.github.io/)] [[Video](https://www.youtube.com/watch?v=p-Kg27--MII)]
 2. AAAI 2021 Workshop: Trustworthy AI for Healthcare [[Website](https://taih20.github.io)]
-3. 2020 KDD Workshop on Applied Data Science for Healthcare: Trustable and Actionable AI for Healthcare [[Website](https://dshealthkdd.github.io/dshealth-2020/)]
+3. KDD 2020 Workshop on Applied Data Science for Healthcare: Trustable and Actionable AI for Healthcare [[Website](https://dshealthkdd.github.io/dshealth-2020/)]
 > * Most of the papers mainly focus on effectineness of the downstream tasks.
 4. On Assessing Trustworthy AI in Healthcare. Machine Learning as a Supportive Tool to Recognize Cardiac Arrest in Emergency Calls [[Paper](https://www.frontiersin.org/articles/10.3389/fhumd.2021.673104/full)] 
+5. A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI (IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS 2020) [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366)]
+6. What do we need to build explainable AI systems for the medical domain? (arxiv 2017) [[Paper](https://arxiv.org/pdf/1712.09923.pdf)] an old paper...
+7. KDD 2020 Tutorial on Human-Centered Explainability for Healthcare [[Website](https://healthxaitutorial.github.io/kdd2020/)]
+
 
 #### Explainability
-1. A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI (IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS 2020) [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366)]
+1. DLIME: A Deterministic Local Interpretable Model-Agnostic Explanations Approach for Computer-Aided Diagnosis Systems (KDD 2019 workshop) [[Paper](https://arxiv.org/pdf/1906.10263.pdf)]  [[GitHub](https://github.com/rehmanzafar/dlime_experiments.git)]
 2. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](http://pike.psu.edu/publications/kdd20-deterrent.pdf)] [[GitHub](https://github.com/cuilimeng/DETERRENT)]
 > * A novel problem of explainable healthcare misinformation detection (from the web) by leveraging medical knowledge graph to better capture the high-order relations between entities.
+3. INPREM: An Interpretable and Trustworthy Predictive Model for Healthcare (KDD 2020) 🌟 [[Paper](http://homepage.divms.uiowa.edu/~jrusert/momina_423.pdf)]
+4. 
+
 
 #### Fairness and Ethics
 
@@ -39,11 +51,36 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 properties: 1) Combining prior source quality information and automatic source reliability estimation; 2) Encoding the object (knowledge triple) information into the proposed method.
 2. SMR: Medical Knowledge Graph Embedding for Safe Medicine Recommendation (Big Data Research 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S2214579620300423?casa_token=tVr0i-xSshMAAAAA:TwCct8Fk4IWKv5P3O0pS1rAfmZWTuZDAkbw1a44QUjYsYufxQ7u8wosPbzyULxVJ5nJcNF62Pxo)]
 
+#### Talented People to Follow
+1. Fenglong Ma [[Website](http://www.personal.psu.edu/ffm5105/Research.html)]
+
+
 #### Related readings on Knowledge-aware Healthcare
 1. Advances in Mining Heterogenous Healthcare Data (KDD 2020 Tutotial) [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
 2. Clinical Trial Parser by Facebook Research [[GitHub](https://github.com/facebookresearch/Clinical-Trial-Parser)]
-> * A downstream task: medical NER
+> * Downstream task: medical NER
+3. HiTANet: Hierarchical Time-Aware Attention Networks for Risk Prediction on Electronic Health Records (KDD 2020) [[GitHub](https://github.com/HiTANet2020/HiTANet)]
+> * Downstream task: risk prediction
 
+### 2.2. Finance and e-Commercial Product Domain (Mainly in Recommendation Scenarios)
+#### Tutorials, Surveys and Workshop
+1. Explainable Recommendation: A Survey and New Perspectives (2020) [[Paper](https://arxiv.org/pdf/1804.11192.pdf)]
+2. 
+#### Explainability
+1. Explainable Knowledge Graph-based Recommendation via Deep Reinforcement Learning (arxiv 2019) [[Paper](https://arxiv.org/abs/1906.09506)]
+> * Explainability analysis: Fig 2 and Table 3
+2. Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences (WWW 2019) [[Paper](https://dl.acm.org/doi/pdf/10.1145/3308558.3313705)]
+> * Explainability analysis: Case Study in Sec 6.7
+3. Explainable recommendation based on knowledge graph and multi-objective optimization (Complex & Intelligent Systems 2021)
+> * Multi-objective optimization of recommendation performance and explanability (Pareto solution)
+> * Explainability analysis: Table 5, Table 6, Fig 5
+4. Fairness-Aware Explainable Recommendation over Knowledge Graphs (SIGIR 2020)
+> * Path is the explanation for the recommendation (Fig 1)
+> * Explainability analysis: case study in Fig 7 (explainable path)
+5. Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation (Algorithms 2018)
+6. KGAT: Knowledge Graph Attention Network for Recommendation (KDD 2019)
+7. Reinforcement knowledge graph reasoning for explainable recommendation (SIGIR 2019)
+8. Explainable Recommendation via Interpretable Feature Mapping and Evaluation of Explainability (IJCAI 2020) [[Paper](https://www.ijcai.org/proceedings/2020/0373.pdf)]
 
 ## 3. Trustworthy AI with General Knowledge or Knowledge Graphs
 ### 3.1 Trustworthy KG Related Tasks
@@ -54,7 +91,7 @@ properties: 1) Combining prior source quality information and automatic source r
 4. 
 
 #### Explainability
-1.
+1. One Explanation Does Not Fit All: A Toolkit and Taxonomy of AI Explainability Techniques (arxiv 2019) [[Paper](https://arxiv.org/pdf/1909.03012.pdf)] [[GitHub](https://github.com/IBM/AIX360/)]
 2. Incorporating Relational Knowledge in Explainable Fake News Detection (PAKDD 2021) [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32)]
 3.
 
