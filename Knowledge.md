@@ -33,8 +33,7 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 6. What do we need to build explainable AI systems for the medical domain? (arxiv 2017) [[Paper](https://arxiv.org/pdf/1712.09923.pdf)] an old paper...
 7. KDD 2020 Tutorial on Human-Centered Explainability for Healthcare [[Website](https://healthxaitutorial.github.io/kdd2020/)]
 8. Datasets
-> * CBLUE (Chinese NLP Medical Text Mining) [[Link](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge)]
-> * 中文医疗领域自然语言处理相关数据集、经典论文资源蒸馏分享 [[Link](https://mp.weixin.qq.com/s__biz=MzIxNDgzNDg3NQ==&mid=2247489095&idx=1&sn=36889ef5e30293b1e204bd807f83c5d8&chksm=97a0dd93a0d754855b66998b823286775f210585942918da1b57c9e2cea11fa489383cc62300&token=373841283&lang=zh_CN#rd)]
+
 
 #### Explainability
 1. DLIME: A Deterministic Local Interpretable Model-Agnostic Explanations Approach for Computer-Aided Diagnosis Systems (KDD 2019 workshop) [[Paper](https://arxiv.org/pdf/1906.10263.pdf)]  [[GitHub](https://github.com/rehmanzafar/dlime_experiments.git)]
@@ -53,16 +52,44 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 properties: 1) Combining prior source quality information and automatic source reliability estimation; 2) Encoding the object (knowledge triple) information into the proposed method.
 2. SMR: Medical Knowledge Graph Embedding for Safe Medicine Recommendation (Big Data Research 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S2214579620300423?casa_token=tVr0i-xSshMAAAAA:TwCct8Fk4IWKv5P3O0pS1rAfmZWTuZDAkbw1a44QUjYsYufxQ7u8wosPbzyULxVJ5nJcNF62Pxo)]
 
-#### Talented People to Follow
-1. Fenglong Ma [[Website](http://www.personal.psu.edu/ffm5105/Research.html)]
-
-
 #### Related readings on Knowledge-aware Healthcare
 1. Advances in Mining Heterogenous Healthcare Data (KDD 2020 Tutotial) [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
 2. Clinical Trial Parser by Facebook Research [[GitHub](https://github.com/facebookresearch/Clinical-Trial-Parser)]
 > * Downstream task: medical NER
 3. HiTANet: Hierarchical Time-Aware Attention Networks for Risk Prediction on Electronic Health Records (KDD 2020) [[GitHub](https://github.com/HiTANet2020/HiTANet)]
 > * Downstream task: risk prediction
+
+#### Talented People to Follow
+1. Fenglong Ma [[Website](http://www.personal.psu.edu/ffm5105/Research.html)]
+2. Fatma Özcan [[DBLP](https://dblp.org/pid/o/FatmaOzcan.html)]
+3. Lei Chuan [[Website](https://leichuan.github.io/publications/)]
+
+#### Datasets
+1. PubMed
+2. MDX [[Link](https://www.ibm.com/products/micromedex-with-watson)]
+3. MIMIC-III [[Reference](https://www.nature.com/articles/sdata201635)]
+4. Bio CDR [[Reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4860626/)]
+5. NCBI [[Reference](https://pubmed.ncbi.nlm.nih.gov/24393765/)], NCBID [[Reference](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/)]
+6. ShARe [[Reference](https://aclanthology.org/S14-2007.pdf)]
+7. BioCreative [[Reference](https://biocreative.bioinformatics.udel.edu/resources/corpora/biocreative-v-cdr-corpus/)]
+8. Summary from NormCo [[Github](https://github.com/IBM/aihn-ucsd/tree/master/NormCo-deep-disease-normalization)]
+9. Datasets provided by [[MedType](https://github.com/svjan5/medtype)]: [[WikiMed](https://drive.google.com/u/0/uc?export=download&confirm=seZN&id=16suJCinjfYhw1u1S-gPFmGFQZD331u7I)] and [[PubMedDS](https://drive.google.com/u/0/uc?export=download&confirm=kB20&id=16mEFpCHhFGuQ7zYRAp2PP3XbAFq9MwoM)]
+10. Unified Medical Language System (UMLS): 4.2 million biomedical concepts, with 127 types
+> * There is a UMLS Semantic Network for concept mapping to semantic types?
+11. MedMetions [[Reference](https://arxiv.org/pdf/1902.09476.pdf)]
+12. CBLUE (Chinese NLP Medical Text Mining) [[Link](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge)]
+13. 中文医疗领域自然语言处理相关数据集、经典论文资源蒸馏分享 [[Link](https://mp.weixin.qq.com/s__biz=MzIxNDgzNDg3NQ==&mid=2247489095&idx=1&sn=36889ef5e30293b1e204bd807f83c5d8&chksm=97a0dd93a0d754855b66998b823286775f210585942918da1b57c9e2cea11fa489383cc62300&token=373841283&lang=zh_CN#rd)]
+
+#### Useful tools (mainly for NER and EL to preprecess the data)
+1. `BioBERT for NER` BioBERT: a pre-trained biomedical language representation model for biomedical text mining [[Paper](https://arxiv.org/ftp/arxiv/papers/1901/1901.08746.pdf)] [[GitHub](https://github.com/dmis-lab/biobert)]
+2. `DeepMatcher for EM`: Deep Learning for Entity Matching: A Design Space Exploration (SIGMOD 2018) [[PDF](http://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf)] [[Code and Data](https://github.com/anhaidgroup/deepmatcher)] 🌟
+3. `NCEL for EL`: Neural Collective Entity Linking (COLING 2018) [[Paper](https://arxiv.org/pdf/1811.08603.pdf)] [[Github](https://github.com/TaoMiner/NCEL)]
+4. `SciSpacy (as neural med-linker)`: SciSpaCy： Fast and Robust Models for Biomedical Natural Language Processing (arxiv 2019)  [[GitHub](https://allenai.github.io/scispacy/)]
+5. `cTAKES for medical entity linker` (map named entities to UMLS concepts)  [[Reference](https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+-+LVG)]
+6. `Quick-UMLS for medical entity linker`
+7. `MetaMap for medical entity linker` (map biomedical mentions in text to UMLS concepts) [[Tool](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap.html)]
+> * `MetaMapLite`: reimplements baisc MetaMap with an additional emphasis on real-time processing and competitive performance [[Tool](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/Docs/README_MetaMapLite_3.6.html)]
+8. `QuickUMLS`
 
 ### 2.2. Finance and e-Commercial Product Domain (Mainly in Recommendation Scenarios)
 #### Tutorials, Surveys and Workshop
