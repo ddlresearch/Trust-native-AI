@@ -32,7 +32,9 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 5. A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI (IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS 2020) [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366)]
 6. What do we need to build explainable AI systems for the medical domain? (arxiv 2017) [[Paper](https://arxiv.org/pdf/1712.09923.pdf)] an old paper...
 7. KDD 2020 Tutorial on Human-Centered Explainability for Healthcare [[Website](https://healthxaitutorial.github.io/kdd2020/)]
-
+8. Datasets
+> * CBLUE (Chinese NLP Medical Text Mining) [[Link](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge)]
+> * 中文医疗领域自然语言处理相关数据集、经典论文资源蒸馏分享 [[Link](https://mp.weixin.qq.com/s__biz=MzIxNDgzNDg3NQ==&mid=2247489095&idx=1&sn=36889ef5e30293b1e204bd807f83c5d8&chksm=97a0dd93a0d754855b66998b823286775f210585942918da1b57c9e2cea11fa489383cc62300&token=373841283&lang=zh_CN#rd)]
 
 #### Explainability
 1. DLIME: A Deterministic Local Interpretable Model-Agnostic Explanations Approach for Computer-Aided Diagnosis Systems (KDD 2019 workshop) [[Paper](https://arxiv.org/pdf/1906.10263.pdf)]  [[GitHub](https://github.com/rehmanzafar/dlime_experiments.git)]
