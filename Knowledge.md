@@ -45,6 +45,11 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 
 #### Fairness and Ethics
 
+#### Privacy and Security
+1. Communication Efficient Federated Generalized Tensor Factorization for Collaborative Health Data Analytics (WWW 2021) [[Paper](http://cs.emory.edu/site/aims/pub/ma21www.pdf)]
+> * Federated learning offers a privacy-preserving paradigm for collaborative learning among different entities, which seemingly provides an ideal potential to further enhance the tensor factorization-based collaborative phenotyping to handle sensitive personal health data.
+> * This paper addresses 3 issues: (1) restrictions to the classic tensor factorization, (2) high communication cost and (3) reduced accuracy, on two real-world electronics health record datasets.
+
 #### Truth Discovery and Knowledge Verification (more close to downstream applications)
 1. When Truth Discovery Meets Medical Knowledge Graph: Estimating Trustworthiness Degree for Medical Knowledge Condition (CoRR 2018)
 > * Supplement medical knowledge graph with knowledge condition information.
