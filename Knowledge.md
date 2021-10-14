@@ -40,7 +40,7 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 2. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](http://pike.psu.edu/publications/kdd20-deterrent.pdf)] [[GitHub](https://github.com/cuilimeng/DETERRENT)]
 > * A novel problem of explainable healthcare misinformation detection (from the web) by leveraging medical knowledge graph to better capture the high-order relations between entities.
 3. INPREM: An Interpretable and Trustworthy Predictive Model for Healthcare (KDD 2020) 🌟 [[Paper](http://homepage.divms.uiowa.edu/~jrusert/momina_423.pdf)]
-4. 
+4. MedPath: Augmenting Health Risk Prediction via Medical Knowledge Paths (WWW 2021) [[GitHub](https://github.com/machinelearning4health/MedPath)]
 
 
 #### Fairness and Ethics
