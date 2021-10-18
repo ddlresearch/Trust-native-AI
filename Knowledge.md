@@ -32,15 +32,15 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 5. A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI (IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS 2020) [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9233366)]
 6. What do we need to build explainable AI systems for the medical domain? (arxiv 2017) [[Paper](https://arxiv.org/pdf/1712.09923.pdf)] an old paper...
 7. KDD 2020 Tutorial on Human-Centered Explainability for Healthcare [[Website](https://healthxaitutorial.github.io/kdd2020/)]
-8. KDD 2021 Tutorial [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
+8. KDD 2021 Tutorial: Advances in Mining Heterogeneous Healthcare Data [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
 
 
 #### Explainability
-1. DLIME: A Deterministic Local Interpretable Model-Agnostic Explanations Approach for Computer-Aided Diagnosis Systems (KDD 2019 workshop) [[Paper](https://arxiv.org/pdf/1906.10263.pdf)]  [[GitHub](https://github.com/rehmanzafar/dlime_experiments.git)]
-2. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](http://pike.psu.edu/publications/kdd20-deterrent.pdf)] [[GitHub](https://github.com/cuilimeng/DETERRENT)]
+1. DLIME: A Deterministic Local Interpretable Model-Agnostic Explanations Approach for Computer-Aided Diagnosis Systems (KDD 2019 workshop) [[Paper](https://arxiv.org/pdf/1906.10263.pdf)]  [[GitHub](https://github.com/rehmanzafar/dlime_experiments.git)] 
+2. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](http://pike.psu.edu/publications/kdd20-deterrent.pdf)] [[GitHub](https://github.com/cuilimeng/DETERRENT)] `Healthcare Misinformation Detection`
 > * A novel problem of explainable healthcare misinformation detection (from the web) by leveraging medical knowledge graph to better capture the high-order relations between entities.
 3. INPREM: An Interpretable and Trustworthy Predictive Model for Healthcare (KDD 2020) 🌟 [[Paper](http://homepage.divms.uiowa.edu/~jrusert/momina_423.pdf)]
-4. MedPath: Augmenting Health Risk Prediction via Medical Knowledge Paths (WWW 2021) [[GitHub](https://github.com/machinelearning4health/MedPath)]
+4. MedPath: Augmenting Health Risk Prediction via Medical Knowledge Paths (WWW 2021) [[GitHub](https://github.com/machinelearning4health/MedPath)] `Risk Prediction`
 
 
 #### Fairness and Ethics
@@ -55,7 +55,7 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 > * Supplement medical knowledge graph with knowledge condition information.
 > * The knowledge triples and conditions serve as objects and claims, and each doctor or a user provides answers on QA website is a source. The proposed method has two novel
 properties: 1) Combining prior source quality information and automatic source reliability estimation; 2) Encoding the object (knowledge triple) information into the proposed method.
-2. SMR: Medical Knowledge Graph Embedding for Safe Medicine Recommendation (Big Data Research 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S2214579620300423?casa_token=tVr0i-xSshMAAAAA:TwCct8Fk4IWKv5P3O0pS1rAfmZWTuZDAkbw1a44QUjYsYufxQ7u8wosPbzyULxVJ5nJcNF62Pxo)]
+2. SMR: Medical Knowledge Graph Embedding for Safe Medicine Recommendation (Big Data Research 2021) [[Paper] (https://www.sciencedirect.com/science/article/pii/S2214579620300423?casa_token=tVr0i-xSshMAAAAA:TwCct8Fk4IWKv5P3O0pS1rAfmZWTuZDAkbw1a44QUjYsYufxQ7u8wosPbzyULxVJ5nJcNF62Pxo)] `Treatment Recommendation`
 
 #### Related readings on Knowledge-aware Healthcare
 1. Advances in Mining Heterogenous Healthcare Data (KDD 2020 Tutotial) [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
