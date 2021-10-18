@@ -37,11 +37,18 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 
 #### Explainability
 1. DLIME: A Deterministic Local Interpretable Model-Agnostic Explanations Approach for Computer-Aided Diagnosis Systems (KDD 2019 workshop) [[Paper](https://arxiv.org/pdf/1906.10263.pdf)]  [[GitHub](https://github.com/rehmanzafar/dlime_experiments.git)] 
-2. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](http://pike.psu.edu/publications/kdd20-deterrent.pdf)] [[GitHub](https://github.com/cuilimeng/DETERRENT)] `Healthcare Misinformation Detection`
+> * More close to XAI: This work proposes a deterministic version of LIME. Instead of random perturbation, we utilize agglomerative Hierarchical Clustering (HC) to group the training data together and K-Nearest Neighbour (KNN) to select the relevant cluster of the new instance that is being explained. After finding the relevant cluster, a linear model is trained over the selected cluster to generate the explanations.
+3. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](http://pike.psu.edu/publications/kdd20-deterrent.pdf)] [[GitHub](https://github.com/cuilimeng/DETERRENT)] `Healthcare Misinformation Detection`
 > * A novel problem of explainable healthcare misinformation detection (from the web) by leveraging medical knowledge graph to better capture the high-order relations between entities.
-3. INPREM: An Interpretable and Trustworthy Predictive Model for Healthcare (KDD 2020) 🌟 [[Paper](http://homepage.divms.uiowa.edu/~jrusert/momina_423.pdf)]
-4. MedPath: Augmenting Health Risk Prediction via Medical Knowledge Paths (WWW 2021) [[GitHub](https://github.com/machinelearning4health/MedPath)] `Risk Prediction`
-
+> * RGCN (with attention) for KG reasoning + text encoer of articles = learn the representation for each earticle, then formulate a classification problem to distinguish if a news is fake.
+4. INPREM: An Interpretable and Trustworthy Predictive Model for Healthcare (KDD 2020) 🌟 [[Paper](http://homepage.divms.uiowa.edu/~jrusert/momina_423.pdf)] `Risk Prediction` `EHR`
+5. MedPath: Augmenting Health Risk Prediction via Medical Knowledge Paths (WWW 2021) [[GitHub](https://github.com/machinelearning4health/MedPath)] `Risk Prediction` `EHR`
+> * Personalized KG to provided personalized prediction and explicit reasoning.
+> * The major idea is borrowed from MHGRN (multi-hop graph): Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering (EMNLP 2020) [[Paper](https://arxiv.org/pdf/2005.00646.pdf)]
+6. HiTANet: Hierarchical Time-Aware Attention Networks for Risk Prediction on Electronic Health Records (KDD 2020) 🌟 [[GitHub](https://github.com/HiTANet2020/HiTANet)] `Risk Prediction` `EHR`
+7. StageNet: Stage-Aware Neural Networks for Health Risk Prediction (WWW 2020) `Risk Prediction`
+8. MedRetriever: Target-Driven Health Risk Prediction via Retrieving Unstructured Medical Text (CIKM 2021) `Risk Prediction`
+9. Online Disease Diagnosis with Inductive Heterogeneous Graph Convolutional Networks (WWW 2021) `Dia`
 
 #### Fairness and Ethics
 
@@ -61,8 +68,7 @@ properties: 1) Combining prior source quality information and automatic source r
 1. Advances in Mining Heterogenous Healthcare Data (KDD 2020 Tutotial) [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
 2. Clinical Trial Parser by Facebook Research [[GitHub](https://github.com/facebookresearch/Clinical-Trial-Parser)]
 > * Downstream task: medical NER
-3. HiTANet: Hierarchical Time-Aware Attention Networks for Risk Prediction on Electronic Health Records (KDD 2020) [[GitHub](https://github.com/HiTANet2020/HiTANet)]
-> * Downstream task: risk prediction
+
 
 #### Talented People to Follow
 1. Fenglong Ma [[Website](http://www.personal.psu.edu/ffm5105/Research.html)]
@@ -72,7 +78,7 @@ properties: 1) Combining prior source quality information and automatic source r
 #### Datasets
 1. PubMed
 2. MDX [[Link](https://www.ibm.com/products/micromedex-with-watson)]
-3. MIMIC-III [[Reference](https://www.nature.com/articles/sdata201635)]
+3. MIMIC-III [[Reference](https://www.nature.com/articles/sdata201635)] `documented EHR`
 4. Bio CDR [[Reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4860626/)]
 5. NCBI [[Reference](https://pubmed.ncbi.nlm.nih.gov/24393765/)], NCBID [[Reference](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/)]
 6. ShARe [[Reference](https://aclanthology.org/S14-2007.pdf)]
@@ -84,6 +90,7 @@ properties: 1) Combining prior source quality information and automatic source r
 11. MedMetions [[Reference](https://arxiv.org/pdf/1902.09476.pdf)]
 12. CBLUE (Chinese NLP Medical Text Mining) [[Link](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge)]
 13. 中文医疗领域自然语言处理相关数据集、经典论文资源蒸馏分享 [[Link](https://mp.weixin.qq.com/s__biz=MzIxNDgzNDg3NQ==&mid=2247489095&idx=1&sn=36889ef5e30293b1e204bd807f83c5d8&chksm=97a0dd93a0d754855b66998b823286775f210585942918da1b57c9e2cea11fa489383cc62300&token=373841283&lang=zh_CN#rd)]
+14. CPRD `documented EHR`
 
 #### Useful tools (mainly for NER and EL to preprecess the data)
 1. `BioBERT for NER` BioBERT: a pre-trained biomedical language representation model for biomedical text mining [[Paper](https://arxiv.org/ftp/arxiv/papers/1901/1901.08746.pdf)] [[GitHub](https://github.com/dmis-lab/biobert)]
