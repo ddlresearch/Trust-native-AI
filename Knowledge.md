@@ -17,7 +17,7 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 > * Note: Cognitive Graph is not directly equal to Knowledge Graph. You can view CG as a (dynamic, partial, local) KG generated instantly from the query.
 11. Awesome Explainable AI [[GitHub](https://github.com/wangyongjie-ntu/Awesome-explainable-AI)]
 12. Awesome_deep_learning_interpretability [[GitHub](https://github.com/oneTaken/awesome_deep_learning_interpretability)]
-13. Aawesome-machine-learning-interpretability [[GitHub](https://github.com/jphall663/awesome-machine-learning-interpretability)]
+13. Awesome-machine-learning-interpretability [[GitHub](https://github.com/jphall663/awesome-machine-learning-interpretability)]
 14. Awesome-explainable-interpretable-ai [[Website](https://myrelated.work/t/awesome-explainable-interpretable-ai/40)]
 -------------------------------
 
@@ -33,6 +33,7 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 6. What do we need to build explainable AI systems for the medical domain? (arxiv 2017) [[Paper](https://arxiv.org/pdf/1712.09923.pdf)] an old paper...
 7. KDD 2020 Tutorial on Human-Centered Explainability for Healthcare [[Website](https://healthxaitutorial.github.io/kdd2020/)]
 8. KDD 2021 Tutorial: Advances in Mining Heterogeneous Healthcare Data [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
+9. Open Data Science Conference West (ODSC) Tutorial: DEEP LEARNING FOR HEALTHCARE [[Website](http://dl4health.org)]
 
 
 #### Explainability
