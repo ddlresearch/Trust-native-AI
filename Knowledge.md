@@ -69,11 +69,11 @@ properties: 1) Combining prior source quality information and automatic source r
 2. Clinical Trial Parser by Facebook Research [[GitHub](https://github.com/facebookresearch/Clinical-Trial-Parser)]
 > * Downstream task: medical NER
 
-
 #### Talented People to Follow
 1. Fenglong Ma [[Website](http://www.personal.psu.edu/ffm5105/Research.html)]
 2. Fatma Özcan [[DBLP](https://dblp.org/pid/o/FatmaOzcan.html)]
 3. Lei Chuan [[Website](https://leichuan.github.io/publications/)]
+4. Walter F Stewart [[Google Scholar](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj7rZOIxtXzAhVtJaYKHWQZAlgQFnoECAYQAQ&url=https%3A%2F%2Fscholar.google.com%2Fcitations%3Fuser%3DflGRoHEAAAAJ%26hl%3Den&usg=AOvVaw23BN6oa909_j2fm2x7Tgp1)]
 
 #### Datasets
 1. PubMed
@@ -122,6 +122,7 @@ properties: 1) Combining prior source quality information and automatic source r
 6. KGAT: Knowledge Graph Attention Network for Recommendation (KDD 2019) [[Paper](https://arxiv.org/pdf/1905.07854.pdf)]
 7. Reinforcement knowledge graph reasoning for explainable recommendation (SIGIR 2019)
 8. Explainable Recommendation via Interpretable Feature Mapping and Evaluation of Explainability (IJCAI 2020) [[Paper](https://www.ijcai.org/proceedings/2020/0373.pdf)]
+9. 
 
 ## 3. Trustworthy AI with General Knowledge or Knowledge Graphs
 ### 3.1 Trustworthy KG Related Tasks
