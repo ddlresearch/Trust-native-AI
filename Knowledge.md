@@ -44,7 +44,7 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 4. INPREM: An Interpretable and Trustworthy Predictive Model for Healthcare (KDD 2020) 🌟 [[Paper](http://homepage.divms.uiowa.edu/~jrusert/momina_423.pdf)] `Risk Prediction` `EHR`
 5. MedPath: Augmenting Health Risk Prediction via Medical Knowledge Paths (WWW 2021) [[GitHub](https://github.com/machinelearning4health/MedPath)] `Risk Prediction` `EHR`
 > * Personalized KG to provided personalized prediction and explicit reasoning.
-> * The major idea is borrowed from MHGRN (multi-hop graph): Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering (EMNLP 2020) [[Paper](https://arxiv.org/pdf/2005.00646.pdf)]
+> * The major idea is borrowed from MHGRN (multi-hop graph): Scalable Multi-Hop Relational Reasoning for Knowledge-Aware Question Answering (EMNLP 2020) [[Paper](https://arxiv.org/pdf/2005.00646.pdf)] [[Notes in Chinese](https://blog.csdn.net/ld326/article/details/114049909)]
 6. HiTANet: Hierarchical Time-Aware Attention Networks for Risk Prediction on Electronic Health Records (KDD 2020) 🌟 [[GitHub](https://github.com/HiTANet2020/HiTANet)] `Risk Prediction` `EHR`
 7. StageNet: Stage-Aware Neural Networks for Health Risk Prediction (WWW 2020) `Risk Prediction`
 8. MedRetriever: Target-Driven Health Risk Prediction via Retrieving Unstructured Medical Text (CIKM 2021) `Risk Prediction`
