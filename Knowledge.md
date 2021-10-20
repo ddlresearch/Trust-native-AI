@@ -42,6 +42,8 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 3. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](http://pike.psu.edu/publications/kdd20-deterrent.pdf)] [[GitHub](https://github.com/cuilimeng/DETERRENT)] `Healthcare Misinformation Detection`
 > * A novel problem of explainable healthcare misinformation detection (from the web) by leveraging medical knowledge graph to better capture the high-order relations between entities.
 > * RGCN (with attention) for KG reasoning + text encoer of articles = learn the representation for each earticle, then formulate a classification problem to distinguish if a news is fake.
+> * The support KG: KnowLife: a versatile approach for constructing a large knowledge graph for biomedical sciences [[Paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.798.9505&rep=rep1&type=pdf)] [[Website](http://knowlife.mpi-inf.mpg.de)]
+> * Similar basic code (text+GRU+RGCN): Learning to Update Knowledge Graphs by Reading News [[GitHub](https://github.com/esddse/GUpdater)]
 4. INPREM: An Interpretable and Trustworthy Predictive Model for Healthcare (KDD 2020) 🌟 [[Paper](http://homepage.divms.uiowa.edu/~jrusert/momina_423.pdf)] `Risk Prediction` `EHR`
 5. MedPath: Augmenting Health Risk Prediction via Medical Knowledge Paths (WWW 2021) [[GitHub](https://github.com/machinelearning4health/MedPath)] `Risk Prediction` `EHR`
 > * Personalized KG to provided personalized prediction and explicit reasoning.
@@ -49,7 +51,9 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 6. HiTANet: Hierarchical Time-Aware Attention Networks for Risk Prediction on Electronic Health Records (KDD 2020) 🌟 [[GitHub](https://github.com/HiTANet2020/HiTANet)] `Risk Prediction` `EHR`
 7. StageNet: Stage-Aware Neural Networks for Health Risk Prediction (WWW 2020) `Risk Prediction`
 8. MedRetriever: Target-Driven Health Risk Prediction via Retrieving Unstructured Medical Text (CIKM 2021) `Risk Prediction`
-9. Online Disease Diagnosis with Inductive Heterogeneous Graph Convolutional Networks (WWW 2021) `Dia`
+9. Online Disease Diagnosis with Inductive Heterogeneous Graph Convolutional Networks (WWW 2021) `Disease Diagnosis`
+10. COMPOSE: Cross-Modal Pseudo-Siamese Network for Patient Trial Matching (KDD 2020) `Patenet Trail Matching` [[GitHub](https://github.com/v1xerunt/COMPOSE)]
+11. CORE: Automatic Molecule Optimization using Copy and Refine Strategy (AAAI 2020) `Drug Discovery` [[GitHub](https://github.com/futianfan/CORE)] (seems no data T_T)
 
 #### Fairness and Ethics
 
