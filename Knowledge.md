@@ -128,7 +128,14 @@ properties: 1) Combining prior source quality information and automatic source r
 6. KGAT: Knowledge Graph Attention Network for Recommendation (KDD 2019) [[Paper](https://arxiv.org/pdf/1905.07854.pdf)]
 7. Reinforcement knowledge graph reasoning for explainable recommendation (SIGIR 2019)
 8. Explainable Recommendation via Interpretable Feature Mapping and Evaluation of Explainability (IJCAI 2020) [[Paper](https://www.ijcai.org/proceedings/2020/0373.pdf)]
-9. 
+9. Try This Instead: Personalized and Interpretable Substitute Recommendation (KDD 2020)
+10. CAFE: Coarse-to-Fine Neural Symbolic Reasoning for Explainable Recommendation (CIKM 2020) `通过KG提升可解释性`
+11. Explainable Recommender Systems via Resolving Learning Representations (CIKM 2020) `借助KG表示学习提升可解释性`
+12. Generate Neural Template Explanations for Recommendation (CIKM 2020) `生成文本提升可解释性`
+13. Explainable Recommendation with Comparative Constraints on Product Aspects (WSDM 2021) `通过和物品在属性上比较来提升可解释性`
+14. Explanation as a Defense of Recommendation (WSDM 2021) `生成文本提升可解释性`
+15. EX^3: Explainable Product Set Recommendation for Comparison Shopping (WWW 2021)
+16. Learning from User Feedback on Explanations to Improve Recommender Models (WWW 2021)
 
 ## 3. Trustworthy AI with General Knowledge or Knowledge Graphs
 ### 3.1 Trustworthy KG Related Tasks
