@@ -56,10 +56,12 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 12. CORE: Automatic Molecule Optimization using Copy and Refine Strategy (AAAI 2020) `Drug Discovery` [[GitHub](https://github.com/futianfan/CORE)] (seems no data T_T)
 
 #### Fairness and Ethics
-It seems that currently there is no paper in ML/AI/DM/DB area that inverstigate the fairness of algorithms/frameworks in healthcare domain, while the reason might be the sensitivity of datasets. However, there are severals papers that point out the directions/challenges of fairness and ethics in machine learning regarding the medical and healthcare domain.
+It seems that currently there is no paper in ML/AI/DM/DB area that inverstigate the fairness of algorithms/frameworks in healthcare domain, while the reason might be the sensitivity of datasets. However, there are several papers that point out the directions/challenges of fairness and ethics in machine learning regarding the medical and healthcare domain.
 1. Ethical limitations of algorithmic fairness solutions in health care machine learning [[Paper](https://www.thelancet.com/action/showPdf?pii=S2589-7500%2820%2930065-0)]
 2. Ensuring Fairness in Machine Learning to Advance Health Equity
-3. 
+3. Mathematical Notions vs. Human Perception of Fairness: A Descriptive Approach to Fairness for Machine Learning (KDD 2019 Applied Science Track)
+> * More close to an empirical study (utilizing AMT) to evaluate people's opinion towards fairness in ML algorithms in two specific scenarios: one is crimical risk prediction, the other is skin cancer risk prediction.
+> * Conclusion: Demographi parity is the mathematical definition of fairness that matches people's opinion towards fairness in the two given scenarios.
 
 #### Privacy and Security
 1. Communication Efficient Federated Generalized Tensor Factorization for Collaborative Health Data Analytics (WWW 2021) [[Paper](http://cs.emory.edu/site/aims/pub/ma21www.pdf)]
