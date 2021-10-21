@@ -50,8 +50,9 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 6. HiTANet: Hierarchical Time-Aware Attention Networks for Risk Prediction on Electronic Health Records (KDD 2020) 🌟 [[GitHub](https://github.com/HiTANet2020/HiTANet)] `Risk Prediction` `EHR`
 7. StageNet: Stage-Aware Neural Networks for Health Risk Prediction (WWW 2020) `Risk Prediction`
 8. MedRetriever: Target-Driven Health Risk Prediction via Retrieving Unstructured Medical Text (CIKM 2021) `Risk Prediction`
-9. Online Disease Diagnosis with Inductive Heterogeneous Graph Convolutional Networks (WWW 2021) `Disease Diagnosis`
-10. COMPOSE: Cross-Modal Pseudo-Siamese Network for Patient Trial Matching (KDD 2020) `Patenet Trail Matching` [[GitHub](https://github.com/v1xerunt/COMPOSE)]
+9. Online Disease Diagnosis with Inductive Heterogeneous Graph Convolutional Networks (WWW 2021) `Disease Diagnosis` `EHR`
+> * Tecent Jarvis Lab Online Diagnosis System (currently no public avaliable datasets and code).
+11. COMPOSE: Cross-Modal Pseudo-Siamese Network for Patient Trial Matching (KDD 2020) `Patenet Trail Matching` [[GitHub](https://github.com/v1xerunt/COMPOSE)]
 > * There is trial data provided. But still needs the EHR. The Github provides a sample format of the required EHR.
 12. CORE: Automatic Molecule Optimization using Copy and Refine Strategy (AAAI 2020) `Drug Discovery` [[GitHub](https://github.com/futianfan/CORE)] (seems no data T_T)
 
