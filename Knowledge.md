@@ -35,7 +35,6 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 8. KDD 2021 Tutorial: Advances in Mining Heterogeneous Healthcare Data [[Slides](https://sites.psu.edu/kdd2021tutorial/files/2021/08/KDD21_tutorial.pdf)]
 9. Open Data Science Conference West (ODSC) Tutorial: DEEP LEARNING FOR HEALTHCARE [[Website](http://dl4health.org)]
 
-
 #### Explainability
 1. DLIME: A Deterministic Local Interpretable Model-Agnostic Explanations Approach for Computer-Aided Diagnosis Systems (KDD 2019 workshop) [[Paper](https://arxiv.org/pdf/1906.10263.pdf)]  [[GitHub](https://github.com/rehmanzafar/dlime_experiments.git)] 
 > * More close to XAI: This work proposes a deterministic version of LIME. Instead of random perturbation, we utilize agglomerative Hierarchical Clustering (HC) to group the training data together and K-Nearest Neighbour (KNN) to select the relevant cluster of the new instance that is being explained. After finding the relevant cluster, a linear model is trained over the selected cluster to generate the explanations.
@@ -53,7 +52,8 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 8. MedRetriever: Target-Driven Health Risk Prediction via Retrieving Unstructured Medical Text (CIKM 2021) `Risk Prediction`
 9. Online Disease Diagnosis with Inductive Heterogeneous Graph Convolutional Networks (WWW 2021) `Disease Diagnosis`
 10. COMPOSE: Cross-Modal Pseudo-Siamese Network for Patient Trial Matching (KDD 2020) `Patenet Trail Matching` [[GitHub](https://github.com/v1xerunt/COMPOSE)]
-11. CORE: Automatic Molecule Optimization using Copy and Refine Strategy (AAAI 2020) `Drug Discovery` [[GitHub](https://github.com/futianfan/CORE)] (seems no data T_T)
+> * There is trial data provided. But still needs the EHR. The Github provides a sample format of the required EHR.
+12. CORE: Automatic Molecule Optimization using Copy and Refine Strategy (AAAI 2020) `Drug Discovery` [[GitHub](https://github.com/futianfan/CORE)] (seems no data T_T)
 
 #### Fairness and Ethics
 
@@ -79,11 +79,12 @@ properties: 1) Combining prior source quality information and automatic source r
 2. Fatma Özcan [[DBLP](https://dblp.org/pid/o/FatmaOzcan.html)]
 3. Lei Chuan [[Website](https://leichuan.github.io/publications/)]
 4. Walter F Stewart [[Google Scholar](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj7rZOIxtXzAhVtJaYKHWQZAlgQFnoECAYQAQ&url=https%3A%2F%2Fscholar.google.com%2Fcitations%3Fuser%3DflGRoHEAAAAJ%26hl%3Den&usg=AOvVaw23BN6oa909_j2fm2x7Tgp1)]
+5. Cao Xiao [[Website](https://sites.google.com/view/danicaxiao/home)]
 
 #### Datasets
 1. PubMed
 2. MDX [[Link](https://www.ibm.com/products/micromedex-with-watson)]
-3. MIMIC-III [[Reference](https://www.nature.com/articles/sdata201635)] `documented EHR`
+3. MIMIC-III [[Reference](https://www.nature.com/articles/sdata201635)] `documented EHR` [[Data download (need to be a credentialed user)](https://mimic.mit.edu/docs/gettingstarted/)]
 4. Bio CDR [[Reference](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4860626/)]
 5. NCBI [[Reference](https://pubmed.ncbi.nlm.nih.gov/24393765/)], NCBID [[Reference](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/)]
 6. ShARe [[Reference](https://aclanthology.org/S14-2007.pdf)]
@@ -111,7 +112,7 @@ properties: 1) Combining prior source quality information and automatic source r
 ### 2.2. Finance and e-Commercial Product Domain (Mainly in Recommendation Scenarios)
 #### Tutorials, Surveys and Workshop
 1. Explainable Recommendation: A Survey and New Perspectives (2020) [[Paper](https://arxiv.org/pdf/1804.11192.pdf)]
-2. 
+
 #### Explainability
 1. Explainable Knowledge Graph-based Recommendation via Deep Reinforcement Learning (arxiv 2019) [[Paper](https://arxiv.org/abs/1906.09506)]
 > * Explainability analysis: Fig 2 and Table 3
