@@ -41,7 +41,7 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 3. DETERRENT: Knowledge Guided Graph Attention Network for Detecting Healthcare Misinformation (KDD 2020) 🌟 [[Paper](http://pike.psu.edu/publications/kdd20-deterrent.pdf)] [[GitHub](https://github.com/cuilimeng/DETERRENT)] `Healthcare Misinformation Detection`
 > * A novel problem of explainable healthcare misinformation detection (from the web) by leveraging medical knowledge graph to better capture the high-order relations between entities.
 > * RGCN (with attention) for KG reasoning + text encoer of articles = learn the representation for each earticle, then formulate a classification problem to distinguish if a news is fake.
-> * The support KG: KnowLife: a versatile approach for constructing a large knowledge graph for biomedical sciences [[Paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.798.9505&rep=rep1&type=pdf)] [[Website](http://knowlife.mpi-inf.mpg.de)]
+> * The support KG: KnowLife: a versatile approach for constructing a large knowledge graph for biomedical sciences [[Paper](https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-015-0549-5.pdf)] [[Website](http://knowlife.mpi-inf.mpg.de)]
 > * Similar basic code (text+GRU+RGCN): Learning to Update Knowledge Graphs by Reading News [[GitHub](https://github.com/esddse/GUpdater)]
 4. INPREM: An Interpretable and Trustworthy Predictive Model for Healthcare (KDD 2020) 🌟 [[Paper](http://homepage.divms.uiowa.edu/~jrusert/momina_423.pdf)] `Risk Prediction` `EHR`
 5. MedPath: Augmenting Health Risk Prediction via Medical Knowledge Paths (WWW 2021) [[GitHub](https://github.com/machinelearning4health/MedPath)] `Risk Prediction` `EHR`
