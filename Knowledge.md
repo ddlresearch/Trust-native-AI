@@ -104,17 +104,21 @@ properties: 1) Combining prior source quality information and automatic source r
 12. CBLUE (Chinese NLP Medical Text Mining) [[Link](https://tianchi.aliyun.com/specials/promotion/2021chinesemedicalnlpleaderboardchallenge)]
 13. 中文医疗领域自然语言处理相关数据集、经典论文资源蒸馏分享 [[Link](https://mp.weixin.qq.com/s__biz=MzIxNDgzNDg3NQ==&mid=2247489095&idx=1&sn=36889ef5e30293b1e204bd807f83c5d8&chksm=97a0dd93a0d754855b66998b823286775f210585942918da1b57c9e2cea11fa489383cc62300&token=373841283&lang=zh_CN#rd)]
 14. CPRD `documented EHR`
+15. 中文糖尿病科研文献实体关系数据集 [[Link](https://tianchi.aliyun.com/dataset/dataDetail?dataId=88836)]
 
 #### Useful tools (mainly for NER and EL to preprecess the data)
-1. `BioBERT for NER` BioBERT: a pre-trained biomedical language representation model for biomedical text mining [[Paper](https://arxiv.org/ftp/arxiv/papers/1901/1901.08746.pdf)] [[GitHub](https://github.com/dmis-lab/biobert)]
-2. `DeepMatcher for EM`: Deep Learning for Entity Matching: A Design Space Exploration (SIGMOD 2018) [[PDF](http://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf)] [[Code and Data](https://github.com/anhaidgroup/deepmatcher)] 🌟
-3. `NCEL for EL`: Neural Collective Entity Linking (COLING 2018) [[Paper](https://arxiv.org/pdf/1811.08603.pdf)] [[Github](https://github.com/TaoMiner/NCEL)]
-4. `SciSpacy (as neural med-linker)`: SciSpaCy： Fast and Robust Models for Biomedical Natural Language Processing (arxiv 2019)  [[GitHub](https://allenai.github.io/scispacy/)]
-5. `cTAKES for medical entity linker` (map named entities to UMLS concepts)  [[Reference](https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+-+LVG)]
-6. `Quick-UMLS for medical entity linker`
-7. `MetaMap for medical entity linker` (map biomedical mentions in text to UMLS concepts) [[Tool](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap.html)]
+1. Resources Collection: AwesomeBioIE [[GitHub](https://github.com/caufieldjh/awesome-bioie#code-libraries)]
+2. `BioBERT for NER (and RE)` BioBERT: a pre-trained biomedical language representation model for biomedical text mining [[Paper](https://arxiv.org/ftp/arxiv/papers/1901/1901.08746.pdf)] [[GitHub](https://github.com/dmis-lab/biobert)]
+3. `DeepMatcher for EM`: Deep Learning for Entity Matching: A Design Space Exploration (SIGMOD 2018) [[PDF](http://pages.cs.wisc.edu/~anhai/papers1/deepmatcher-sigmod18.pdf)] [[Code and Data](https://github.com/anhaidgroup/deepmatcher)] 🌟
+4. `NCEL for EL`: Neural Collective Entity Linking (COLING 2018) [[Paper](https://arxiv.org/pdf/1811.08603.pdf)] [[Github](https://github.com/TaoMiner/NCEL)]
+5. `SciSpacy (as neural med-linker)`: SciSpaCy： Fast and Robust Models for Biomedical Natural Language Processing (arxiv 2019)  [[GitHub](https://allenai.github.io/scispacy/)]
+6. `cTAKES for medical entity linker` (map named entities to UMLS concepts)  [[Reference](https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+-+LVG)]
+7. `Quick-UMLS for medical entity linker`
+8. `MetaMap for medical entity linker` (map biomedical mentions in text to UMLS concepts) [[Tool](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap.html)]
 > * `MetaMapLite`: reimplements baisc MetaMap with an additional emphasis on real-time processing and competitive performance [[Tool](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/Docs/README_MetaMapLite_3.6.html)]
-8. `QuickUMLS`
+9. `QuickUMLS` [[GitHub](https://github.com/Georgetown-IR-Lab/QuickUMLS)]
+10. `MedaCy` [[GitHub](https://github.com/NLPatVCU/medaCy)] For NER
+
 
 ### 2.2. Finance and e-Commercial Product Domain (Mainly in Recommendation Scenarios)
 #### Tutorials, Surveys and Workshop
