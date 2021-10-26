@@ -118,7 +118,7 @@ properties: 1) Combining prior source quality information and automatic source r
 > * `MetaMapLite`: reimplements baisc MetaMap with an additional emphasis on real-time processing and competitive performance [[Tool](https://lhncbc.nlm.nih.gov/ii/tools/MetaMap/Docs/README_MetaMapLite_3.6.html)]
 9. `QuickUMLS` [[GitHub](https://github.com/Georgetown-IR-Lab/QuickUMLS)]
 10. `MedaCy` [[GitHub](https://github.com/NLPatVCU/medaCy)] For NER
-> * "After installing medaCy and medaCy's clinical model..." I come across the same issue as [#210](https://github.com/NLPatVCU/medaCy/issues/210), will figure out later.
+> * "After installing medaCy and medaCy's clinical model..." I come across the same issue as [#210](https://github.com/NLPatVCU/medaCy/issues/210) and #209, will figure out later.
 
 
 ### 2.2. Finance and e-Commercial Product Domain (Mainly in Recommendation Scenarios)
