@@ -119,6 +119,8 @@ properties: 1) Combining prior source quality information and automatic source r
 9. `QuickUMLS` [[GitHub](https://github.com/Georgetown-IR-Lab/QuickUMLS)]
 10. `MedaCy` [[GitHub](https://github.com/NLPatVCU/medaCy)] For NER
 > * "After installing medaCy and medaCy's clinical model..." I come across the same issue as [#210](https://github.com/NLPatVCU/medaCy/issues/210) and #209, will figure out later.
+11. An Advanced Review on Text Mining in Medicine [[Website](http://www.uco.es/kdis/textminingmedicine/)]
+12. 
 
 
 ### 2.2. Finance and e-Commercial Product Domain (Mainly in Recommendation Scenarios)
