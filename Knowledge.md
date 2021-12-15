@@ -120,14 +120,20 @@ properties: 1) Combining prior source quality information and automatic source r
 10. `MedaCy` [[GitHub](https://github.com/NLPatVCU/medaCy)] For NER
 > * "After installing medaCy and medaCy's clinical model..." I come across the same issue as [#210](https://github.com/NLPatVCU/medaCy/issues/210) and #209, will figure out later.
 11. An Advanced Review on Text Mining in Medicine [[Website](http://www.uco.es/kdis/textminingmedicine/)]
-12. 
+
 
 
 ### 2.2. Finance and e-Commercial Product Domain (Mainly in Recommendation Scenarios)
 #### Tutorials, Surveys and Workshop
 1. Explainable Recommendation: A Survey and New Perspectives (2020) [[Paper](https://arxiv.org/pdf/1804.11192.pdf)]
+2. 综述 | GNN金融风控领域业界进展调研 [[Link](https://zhuanlan.zhihu.com/p/348060075)]
 
-#### Explainability
+#### Useful Guidelines
+1. Amazon Product Graph [[Slides](http://lunadong.com/talks/PG.pdf)]
+2. Self-Driving Product Understanding for Thousands of Categories (By Luna Dong, Keynote at Knowledge Graphs and E-commerce Workshop, San Diego, CA, August 2020) [[Slides](http://lunadong.com/talks/SelfDrivingBG.pptx)]
+3. Building a Broad Knowledge Graph for Products (By Luna Dong, Keynote at IEEE International Conference on Data Engineering (ICDE), Macau, China, April 2019) [[Slides](http://lunadong.com/talks/BG.pdf)]
+
+#### Explainability in Finance
 1. Explainable Knowledge Graph-based Recommendation via Deep Reinforcement Learning (arxiv 2019) [[Paper](https://arxiv.org/abs/1906.09506)]
 > * Explainability analysis: Fig 2 and Table 3
 2. Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences (WWW 2019) [[Paper](https://dl.acm.org/doi/pdf/10.1145/3308558.3313705)]
@@ -150,6 +156,38 @@ properties: 1) Combining prior source quality information and automatic source r
 14. Explanation as a Defense of Recommendation (WSDM 2021) `生成文本提升可解释性`
 15. EX^3: Explainable Product Set Recommendation for Comparison Shopping (WWW 2021)
 16. Learning from User Feedback on Explanations to Improve Recommender Models (WWW 2021)
+17. Financial Risk Analysis for SMEs with Graph-based Supply Chain Mining (IJCAI 2020, Special Track on AI in FinTech) [[Paper](https://www.ijcai.org/proceedings/2020/0643.pdf)]
+> * The SME graph as well as the labeled data for supply chain mining are from Alipay.
+
+#### Product KGs
+1. AutoKnow: Self-Driving Knowledge Collection for Products of Thousands of Types (KDD 2020, Applied Data Science Track) [[Paper](https://arxiv.org/pdf/2006.13473.pdf)]🌟
+2. GoodsKG - a Product Knowledge Graph Project [[GitHub](https://github.com/liuhuanyong/ProductKnowledgeGraph)]
+3. AliCoCo: Alibaba E-commerce Cognitive Concept Net (SIGMOD 2020 Industry Track) [[Paper](https://arxiv.org/pdf/2003.13230.pdf)] [[Github](https://github.com/alicogintel/AliCoCo)]🌟
+4. Product Knowledge Graph Embedding for E-commerce (WSDM 2020) [[Paper](https://arxiv.org/pdf/1911.12481.pdf)]🌟
+5. Towards Knowledge-Based Personalized Product Description Generation in E-commerce [[Paper](https://arxiv.org/pdf/1903.12457.pdf), applied science track] (KDD 2019) 🌟
+6. TXtract: Taxonomy-aware knowledge extraction for thousands of product categories (ACL 2020)
+7. Automatic validation of textual attribute values in eCommerce Catalog by learning with limited labeled data (KDD 2020) 🌟
+8. Octet: Online catalog taxonomy enrichment with self-supervision (KDD 2020) 🌟
+9. OpenTag: Open attribute value extraction from product profiles (KDD 2018) 🌟
+10. DEXTER: Large-scale discovery and extraction of product specifications on the Web (VLDB 2016) 🌟
+11. P-Companion: A principled framework for diversified complementary product recommendation (CIKM 2020)
+12. J-Recs: Principled and scalable recommendation justification (ICDM 2020)
+13. PAM: Understanding Product Images in Cross Product Category Attribute Extraction (KDD 2021) [[Paper](https://arxiv.org/pdf/2106.04630.pdf)]
+14. AliCoCo2: Commonsense Knowledge Extraction, Representation and Application in E-commerce (KDD 2021) 🌟
+15. AliCG : Alibaba Conceptual Graph for Semantic Search (KDD 2021) 🌟
+16. AliMe KG : Alibaba domain knowledge graph in E-commerce (CIKM 2020)
+17. Embedding-based Product Retrieval in Taobao Search (KDD 2021) [[Paper](https://arxiv.org/pdf/2106.09297.pdf)] 🌟
+18. Product Knowledge Graph Embedding for E-commerce (WSDM 2020) [[Paper](https://dl.acm.org/doi/pdf/10.1145/3336191.3371778)]
+
+#### Datasets 
+1. Fannie Mae Single-Family Loan Performance Data [[Link 1](https://capitalmarkets.fanniemae.com/credit-risk-transfer/single-family-credit-risk-transfer/fannie-mae-single-family-loan-performance-data)] [[Link 2](https://www.fhfa.gov/DataTools/Downloads/Pages/Public-Use-Databases.aspx)]
+2. Data Set and Evaluation of Automated Construction of Financial Knowledge Graph [[Link](http://www.openkg.cn/dataset/fr2kg)]
+3. 企业知识图谱 [[Link](http://www.openkg.cn/dataset/openekg)]
+4. 金融时序超图(Finanical Temporal Hypergraph Ontology,FTHO) [[Link](http://www.openkg.cn/dataset/ftho)]
+5. 基金知识图谱 [[Link](http://www.openkg.cn/dataset/fundkg)]
+6. 其他中文金融相关知识图谱数据集 [[Link](http://www.openkg.cn/dataset?tags=%E9%87%91%E8%9E%8D)]
+7. Web Data Commons - Gold Standard for Product Matching and Product Feature Extraction [[Link](http://webdatacommons.org/productcorpus/)]
+
 
 ## 3. Trustworthy AI with General Knowledge or Knowledge Graphs
 ### 3.1 Trustworthy KG Related Tasks
@@ -157,12 +195,12 @@ properties: 1) Combining prior source quality information and automatic source r
 1. Semantics of the Black-Box: Can Knowledge Graphs Help Make Deep Learning Systems More Interpretable and Explainable? 
 2. Explainable AI Using Knowledge Graphs (tutorial 2020) [[Video](https://www.youtube.com/watch?v=MOfTXxgO78A)]
 3. On the Role of Knowledge Graph in Explainable AI (under open review at the Semantic Web Journal, 2021) [[Full Slides](http://www-sop.inria.fr/members/Freddy.Lecue/presentation/ISWC2019-FreddyLecue-Thales-OnTheRoleOfKnowledgeGraphsInExplainableAI.pdf)]
-4. 
+
 
 #### Explainability
 1. One Explanation Does Not Fit All: A Toolkit and Taxonomy of AI Explainability Techniques (arxiv 2019) [[Paper](https://arxiv.org/pdf/1909.03012.pdf)] [[GitHub](https://github.com/IBM/AIX360/)]
 2. Incorporating Relational Knowledge in Explainable Fake News Detection (PAKDD 2021) [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-75768-7_32)]
-3.
+
 
 #### Fairness
 1. Explaining Algorithmic Fairness Through Fairness-Aware Causal Path Decomposition (KDD 2021) [[Paper](https://arxiv.org/pdf/2108.05335.pdf)]
