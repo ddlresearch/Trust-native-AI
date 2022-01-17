@@ -19,6 +19,7 @@ Note: The major concerns in Trustworthy AI include (but not limited to) Explanab
 12. Awesome_deep_learning_interpretability [[GitHub](https://github.com/oneTaken/awesome_deep_learning_interpretability)]
 13. Awesome-machine-learning-interpretability [[GitHub](https://github.com/jphall663/awesome-machine-learning-interpretability)]
 14. Awesome-explainable-interpretable-ai [[Website](https://myrelated.work/t/awesome-explainable-interpretable-ai/40)]
+15. Trustworthy AI: A Computational Perspective (WWW 2022 Tutorial) [[Website](https://sites.google.com/msu.edu/trustworthy-ai/)]
 -------------------------------
 
 ## 2. Trustworthy AI with Specific Domain Knowledge
